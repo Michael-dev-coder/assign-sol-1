@@ -17,7 +17,7 @@
         $scope.Obj = {"color":"red"};
         $scope.Obj2 = {"border": "1px solid red"};
         return $scope.message="Please enter data first";
-      }else if (words.length >= 3) {
+      }else if (words >= words[3]) {
         $scope.Obj = {"color":"green"};
         $scope.Obj2 = {"border": "1px solid green"};
         return $scope.message="Too much!";
